@@ -15,8 +15,8 @@ When the ancestors of humans ventured onto land hundreds of millions of years ag
 - `code/multiomics_utils.R` + `code/lefse_utils.R` + `code/iobr_utils.R` + `code/tempdir_utils.R`: multi-omics merging, LEfSe wrappers, signature scoring, and fixed temp directories.
 
 ## 📂 Data Availability
-- Single-cell RNA-seq and spatial transcriptomics: GSA-Human HRA016071.
-- Metagenome and 16S rRNA gene sequences: ENA PRJEB103845.
+- Single-cell RNA-seq transcriptomics: GEO GSE310069.
+- 16S rRNA gene sequences: ENA PRJEB103845.
 
 ## 📖 Citation
 Skin commensal bacteria regulate lung microbiota to alleviate allergic asthma; Under Review, 2026
