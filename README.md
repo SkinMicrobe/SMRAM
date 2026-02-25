@@ -16,7 +16,7 @@ When the ancestors of humans ventured onto land hundreds of millions of years ag
 
 ## 📂 Data Availability
 - Single-cell RNA-seq transcriptomics: GEO GSE310069.
-- 16S rRNA gene sequences: ENA PRJEB103845.
+- 16S rRNA gene sequences: NCBI PRJNA1345678.
 
 ## 📖 Citation
 Skin commensal bacteria regulate lung microbiota to alleviate allergic asthma; Under Review, 2026
