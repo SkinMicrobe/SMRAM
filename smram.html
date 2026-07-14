@@ -54,6 +54,37 @@
       gap: 8px;
       align-items: center;
     }
+
+    .table-wrapper {
+      overflow-x: auto;
+      background: #ffffff;
+      border: 1px solid #dfe6e9;
+      border-radius: 6px;
+    }
+    .metadata-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      color: #333;
+      min-width: 1200px;
+    }
+    .metadata-table th,
+    .metadata-table td {
+      border: 1px solid #dfe6e9;
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.45;
+    }
+    .metadata-table th {
+      background-color: #ecf5fb;
+      color: #2c3e50;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .metadata-table tbody tr:nth-child(even) {
+      background-color: #f8fbfd;
+    }
   </style>
 </head>
 <body>
@@ -110,6 +141,360 @@
         <a href="https://www.ncbi.nlm.nih.gov/bioproject/504591" target="_blank" class="source-link">PRJNA504591</a>
       </div>
     </p>
+  </div>
+
+  <div class="section">
+    <h3>Public Cohort Metadata Summary</h3>
+    <p class="data-info">Metadata were summarized from public ENA read-run records based on the cohort list from the SMOOTH database page. Missing fields in public database records are indicated as NA.</p>
+    <div class="table-wrapper">
+      <table class="metadata-table">
+        <thead>
+          <tr>
+          <th>Microbiome system</th>
+          <th>Cohort ID</th>
+          <th>Study title</th>
+          <th>Sequencing type</th>
+          <th>Library source</th>
+          <th>Public database samples</th>
+          <th>Geography</th>
+          <th>Sampling site</th>
+          <th>Sex summary</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Skin</td>
+          <td>PRJEB44392</td>
+          <td>Skin microbiota in atopic dermatitis</td>
+          <td>AMPLICON</td>
+          <td>OTHER</td>
+          <td>652</td>
+          <td>NA</td>
+          <td>Skin</td>
+          <td>female: 320; male: 320</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJEB41859</td>
+          <td>Shifts in the skin microbiota after UVB treatment in adult atopic dermatitis</td>
+          <td>WGS</td>
+          <td>GENOMIC</td>
+          <td>579</td>
+          <td>NA</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJNA890292</td>
+          <td>Microbial diversity of human skin affected by atopic dermatitis</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>1231</td>
+          <td>USA: Denver, CO; USA: Jacksonville, FL; USA: Los Angeles, CA; USA: Palo Alto, CA; USA: Philadelphia, PA; USA: Portland, OR; USA: Rochester, NY; USA: San Diego, CA</td>
+          <td>Multiple skin body sites</td>
+          <td>female: 418; male: 813</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJDB9921</td>
+          <td>Human and murine skin microbiota of atopic dermatitis</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>494</td>
+          <td>Japan</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJEB58904</td>
+          <td>Skin microbiome and its association with host cofactors in determining atopic dermatitis severity</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>111</td>
+          <td>USA</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJNA268694</td>
+          <td>Skin microbiome associated with atopic dermatitis</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>324</td>
+          <td>USA: Denver</td>
+          <td>Lesional, non-lesional, and healthy skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJNA657878</td>
+          <td>16S rRNA gene fragments from skin and guts of early infants suffering from atopic dermatitis (AD) and/or food allergy (FA) - a pilot study</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>209</td>
+          <td>Poland: Bydgoszcz</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJNA759575</td>
+          <td>The skin microbiome of patients with atopic dermatitis normalizes gradually during treatment</td>
+          <td>AMPLICON</td>
+          <td>GENOMIC</td>
+          <td>581</td>
+          <td>Mexico: Mexico City</td>
+          <td>Skin</td>
+          <td>female: 308; male: 273</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJEB42399</td>
+          <td>Shared signatures and divergence in skin microbiomes of children with atopic dermatitis and their adult caregivers</td>
+          <td>WGS</td>
+          <td>GENOMIC; METAGENOMIC</td>
+          <td>409</td>
+          <td>Singapore</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJEB63144</td>
+          <td>AD microbiome study</td>
+          <td>AMPLICON; WGS</td>
+          <td>METAGENOMIC</td>
+          <td>149</td>
+          <td>Belgium</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJNA277905</td>
+          <td>Human Skin Microbiome Metagenome</td>
+          <td>AMPLICON; WGS</td>
+          <td>METAGENOMIC</td>
+          <td>106</td>
+          <td>NA</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Skin</td>
+          <td>PRJEB40358</td>
+          <td>Dysbiotic Lesional Microbiome with Filaggrin Missense Variants Associate with Atopic Dermatitis in India</td>
+          <td>WGS</td>
+          <td>METAGENOMIC</td>
+          <td>108</td>
+          <td>India</td>
+          <td>Skin</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA769290</td>
+          <td>Impact of long-term azithromycin treatment on the respiratory microbiome in HIV-associated chronic lung disease</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>894</td>
+          <td>Malawi: Blantyre; Zimbabwe: Harare</td>
+          <td>Sputum</td>
+          <td>female: 383; male: 410</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA448764</td>
+          <td>metageonomic data Raw sequence reads</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>601</td>
+          <td>NA</td>
+          <td>Nasal wash</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB77703</td>
+          <td>Sputum microbiota from the World Asthma Phenotypes Study</td>
+          <td>AMPLICON</td>
+          <td>GENOMIC</td>
+          <td>488</td>
+          <td>Brazil; Ecuador; New Zealand; Uganda; United Kingdom</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB42394</td>
+          <td>Seasonal Dynamics in Upper Airway Microbiomes Relate to Asthma Exacerbations</td>
+          <td>AMPLICON</td>
+          <td>OTHER</td>
+          <td>360</td>
+          <td>USA</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA911564</td>
+          <td>The upper airway microbiota in children with asthma exacerbations admitted to the medium or intensive care.</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>344</td>
+          <td>Netherlands: Utrecht</td>
+          <td>Nasopharynx</td>
+          <td>female: 149; male: 195</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB57744</td>
+          <td>Sputum microbiome in children with asthma in NZ</td>
+          <td>AMPLICON</td>
+          <td>GENOMIC</td>
+          <td>241</td>
+          <td>NA</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB32061</td>
+          <td>Viral respiratory tract infections and oropharyngeal microbiome interactions in wheezing children</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>262</td>
+          <td>NA</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB71587</td>
+          <td>sputum microbiome from a cross section of adults with asthma</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>167</td>
+          <td>Australia</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA635285</td>
+          <td>Microbiome of Sputum Sample from Asthma Patients</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>155</td>
+          <td>South Korea</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA1196312</td>
+          <td>Salivary microbiome in pediatric cohort with asthma</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>155</td>
+          <td>Slovenia:Maribor</td>
+          <td>Respiratory tract</td>
+          <td>female: 58; male: 97</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB51261</td>
+          <td>COVID-19 asthma microbiome</td>
+          <td>AMPLICON</td>
+          <td>GENOMIC</td>
+          <td>111</td>
+          <td>NA</td>
+          <td>Respiratory tract</td>
+          <td>female: 40; male: 65</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA761607</td>
+          <td>Asthma associated with the respiratory microbiota Raw sequence reads</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>84</td>
+          <td>China: Beijing</td>
+          <td>Airway</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA601757</td>
+          <td>Upper and lower airway microbiomes in children with and without asthma</td>
+          <td>OTHER</td>
+          <td>METAGENOMIC</td>
+          <td>81</td>
+          <td>USA: New York</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB22676</td>
+          <td>Comparing microbiota composition of various airway sample types in adults with mild mild atopic asthma.</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>72</td>
+          <td>USA</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA544825</td>
+          <td>Airway microbes and asthma exacerbation</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>48</td>
+          <td>Taiwan:Tainan</td>
+          <td>Nose and throat</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB36780</td>
+          <td>Airway Microbiota-Host Interactions Regulate Secreted Leukocyte Proteinase Inhibitor Levels and Influence Allergic Airway Inflammation</td>
+          <td>AMPLICON; RNA-Seq</td>
+          <td>METAGENOMIC; TRANSCRIPTOMIC</td>
+          <td>68</td>
+          <td>USA</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJEB12006</td>
+          <td>Microbiome of asthma patients</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>24</td>
+          <td>NA</td>
+          <td>Respiratory tract</td>
+          <td>NA</td>
+        </tr>
+        <tr>
+          <td>Respiratory</td>
+          <td>PRJNA504591</td>
+          <td>bacterium sequencing of the lung in asthma rat</td>
+          <td>AMPLICON</td>
+          <td>METAGENOMIC</td>
+          <td>10</td>
+          <td>China:Chongqing</td>
+          <td>Lung</td>
+          <td>NA</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </body>
 </html>
