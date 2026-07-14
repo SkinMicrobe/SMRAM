@@ -8,11 +8,15 @@ When the ancestors of humans ventured onto land hundreds of millions of years ag
 ![Graphical Abstract](figure/GA.png)
 
 ## 🧰 Code
-- `code/seurat_utils.R` + `code/cellchat_utils.R`: streamlined Seurat and CellChat workflows.
-- `code/microbiome_utils.R` + `code/microbiome_prediction_utils.R`: microbiome stats, ordination, and prediction helpers.
-- `code/enrichment_utils.R` + `code/kegg_utils.R` + `code/limma_utils.R`: differential testing and KEGG/GSEA enrichment.
-- `code/metabolism_utils.R` + `code/heatmap_utils.R` + `code/plot_utils.R` + `code/theme_utils.R`: metabolite cleanup plus ready-made plots, heatmaps, and themes.
-- `code/multiomics_utils.R` + `code/lefse_utils.R` + `code/iobr_utils.R` + `code/tempdir_utils.R`: multi-omics merging, LEfSe wrappers, signature scoring, and fixed temp directories.
+- `code/01_stacked_bar_plot.R`: stacked bar plots for microbiome composition summaries.
+- `code/02_bar_plot.R`: bar plots with error bars for grouped quantitative comparisons.
+- `code/03_boxplot.R`: boxplots with overlaid sample points for distribution-level comparisons.
+- `code/04_beta_diversity_scatter_plot.R`: beta diversity scatter plots with group ellipses.
+- `code/05_heatmap.R`: heatmaps for feature-level abundance or score matrices.
+- `code/06_single_cell_tsne_umap.R`: tSNE or UMAP plots for single-cell cluster visualization.
+- `code/07_single_cell_feature_plot.R`: feature expression plots for selected marker genes.
+- `code/08_single_cell_violin_plot.R`: violin plots for marker expression across cell groups.
+- `code/09_single_cell_dot_plot.R`: dot plots for marker panels across annotated cell groups.
 
 ## 📂 Data Availability
 - Single-cell RNA-seq transcriptomics: GEO GSE310069.
